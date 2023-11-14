@@ -1,0 +1,35 @@
+if [[ $(command -v /opt/homebrew/bin/brew) == "" ]]; then
+    echo "Installing Hombrew"
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+    # add brew to the path for the current session
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+else
+    # add brew to the path for the current session
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+
+    echo "Updating Homebrew"
+    brew update
+fi
+
+# Casks
+brew install --cask spotify
+brew install --cask discord
+brew install --cask iterm2
+
+# 1password
+brew install --cask 1password
+brew install 1password-cli
+brew install mas
+mas install 1569813296  # 1password for Safari
+
+# Packages
+brew install ascii
+brew install tldr
+brew install wget
+brew install p7zip
+brew install neovim
+brew install git
+brew install python
+brew install tmux
+
