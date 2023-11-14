@@ -30,6 +30,15 @@ brew install wget
 brew install p7zip
 brew install neovim
 brew install git
-brew install python
 brew install tmux
+
+# pyhton
+brew install python
+
+# golang
+brew install go
+
+# node
+brew install n
+N_PREFIX=/opt/homebrew n lts
 
