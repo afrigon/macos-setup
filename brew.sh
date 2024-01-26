@@ -31,6 +31,7 @@ brew install p7zip
 brew install neovim
 brew install git
 brew install tmux
+brew install fish
 
 # pyhton
 brew install python

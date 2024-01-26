@@ -1,3 +1,6 @@
+- enable desktop sync icloud
+- download latest xcode
+
 # iTerm
 - configure start full screen
 - configure rose pine
@@ -9,4 +12,4 @@
 
 # 1password
 
-- setup cli to use 1password automatically
+- find a way to setup cli automatically
