@@ -16,6 +16,7 @@ fi
 brew install --cask spotify
 brew install --cask discord
 brew install --cask iterm2
+brew install --cask rectangle-pro
 
 # 1password
 brew install --cask 1password
@@ -32,6 +33,7 @@ brew install neovim
 brew install git
 brew install tmux
 brew install fish
+brew install jq
 
 # pyhton
 brew install python

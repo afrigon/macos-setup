@@ -12,13 +12,13 @@ xcode-select --install
 
 source ./defaults.sh
 source ./brew.sh
+# source ./xcode.sh not sure if this is ready or not
 source ./dock.sh
 
 confirm "Enable 1password-cli by navigating to 1password settings > Developer and selecting Integrate with 1password CLI."
-
 source ./1password.sh
+
 source ./dotfiles.sh
 
-sudo bash -c 'echo $(which fish) >> /etc/shells'
-chsh -s $(which fish)
+grep fish /etc/shells || (sudo bash -c 'echo $(which fish) >> /etc/shells' && chsh -s $(which fish))
 
